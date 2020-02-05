@@ -1,0 +1,46 @@
+body{
+    font:italic 17pt Arial;
+    background-image: url("calculadora.jpg");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+}
+input{
+    font:normal 17pt Arial;
+    width: 90px;
+    color: black;
+    margin: 15px;
+}
+h1{
+    color: Black;
+}
+section{
+    background: rgb(221, 214, 214);
+    width: 400px;
+    height: 150px;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 15px 15px 15px  rgba(0, 0, 0, 0.700);
+}
+header{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    font: italic;
+    color: white;
+}
+#res{
+        text-align: center;
+        padding-top: 30px;
+}
+#n1{
+    border-radius: 30px;
+}
+#n2{
+    border-radius: 30px;
+}
+#botao{
+    border-radius: 30px;
+}
