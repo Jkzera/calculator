@@ -5,7 +5,7 @@ function soma(){
     var n1 = Number(tn1.value)
     var n2 = Number(tn2.value)
     var s = n1 + n2
-    if(n1 === 0 && n2 === 0){
+    if(n1 === 0 || n2 === 0){
         alert('Insira pelo menos um valor!')
     }
     else{
